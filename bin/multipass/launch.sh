@@ -10,7 +10,7 @@ if [ $(which multipass) ]
 then
 	if [ ! "$(multipass list | grep ^$VM)" ]
 	then
-		multipass launch --name $NM --mount $HOME:$HOME $VM
+		multipass launch --name $NM --mount $HOME $VM
 	fi
 
 	multipass info $NM
