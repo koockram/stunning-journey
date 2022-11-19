@@ -43,3 +43,9 @@ sudo apt update && sudo apt-get install -y terraform
 
 terraform -version
 
+if [ ! -f ~/.bashrc ]
+then
+	touch ~/.bashrc
+fi
+
+terraform -install-autocomplete
