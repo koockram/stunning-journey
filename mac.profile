@@ -11,3 +11,6 @@ export AWS_PROFILE=default
 export AWS_CONFIG_FILE=$MAC_HOME/.aws/config
 export AWS_SHARED_CREDENTIALS_FILE=$MAC_HOME/.aws/credentials
 #aws sts get-caller-identity
+
+alias tf="terraform"
+alias mp="multipass"
