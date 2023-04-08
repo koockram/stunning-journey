@@ -2,7 +2,7 @@
 # do not export HOME
 
 export MAC_HOME=/Users/$USER
-export PROJ_BIN=$MAC_HOME/Git/stunning-journey/bin
+export PROJ_BIN=$MAC_HOME/git/stunning-journey/bin
 
 export PATH=$PATH:$PROJ_BIN
 

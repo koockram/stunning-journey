@@ -14,7 +14,11 @@ $ . profile/mac/profile.sh
   
 \# install client images by running version commands with the files  
 * bin/aws-cli.sh  
-* bin/terraform.sh. 
+* bin/terraform.sh  
+  mounts ~/.aws as /.aws  
+  mounts ~/.ssh as /.ssh  
+  mounts $(pwd) as /terraform  
+
   
 $ aws --version  
 $ terraform --version  
